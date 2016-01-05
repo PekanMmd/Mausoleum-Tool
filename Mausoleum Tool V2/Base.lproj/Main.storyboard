@@ -1,25 +1,243 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6211" systemVersion="14A298i" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14B25" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="rEM-yA-jZp">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6204"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
-        <scene sceneID="tne-QT-ifu">
+        <!--Deck View Controller-->
+        <scene sceneID="KlQ-VJ-OKQ">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="4pg-mR-LoT" customClass="XGDeckViewController" customModule="Mausoleum_Tool_V2" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
-                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                        <viewControllerLayoutGuide type="top" id="VNL-cK-zxI"/>
+                        <viewControllerLayoutGuide type="bottom" id="TWQ-Zm-06L"/>
                     </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                    <view key="view" contentMode="scaleToFill" id="gdT-OT-dgy">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="4u8-ze-CfZ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="1600" y="-248"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="ccY-9w-ejB">
+            <objects>
+                <viewController id="YSt-2z-Rrx" customClass="XGLZSSViewController" customModule="Mausoleum_Tool_V2" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="nWM-EE-wfC"/>
+                        <viewControllerLayoutGuide type="bottom" id="SqV-Z2-bim"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="2Ll-vc-BJp">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="8bb-gM-jxv" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1184" y="1851"/>
+        </scene>
+        <!--Fsys Importer View Controller-->
+        <scene sceneID="pNm-up-Zfl">
+            <objects>
+                <viewController id="CLE-Ew-qlG" customClass="XGFsysImporterViewController" customModule="Mausoleum_Tool_V2" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="qnZ-cZ-fDO"/>
+                        <viewControllerLayoutGuide type="bottom" id="Jo9-AC-AxG"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="gte-8p-Tii">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Q7x-j0-FfJ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="834" y="1916"/>
+        </scene>
+        <!--Gift Pokemon View Controller-->
+        <scene sceneID="OHt-4J-zvw">
+            <objects>
+                <viewController id="dnu-xe-yvJ" customClass="XGGiftPokemonViewController" customModule="Mausoleum_Tool_V2" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="oQ7-Lf-Icz"/>
+                        <viewControllerLayoutGuide type="bottom" id="uvu-0t-ept"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="XjU-lO-Axq">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="pjE-fE-2BB" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="395" y="1391"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="pAW-UB-x40">
+            <objects>
+                <viewController id="y6T-Ax-X75" customClass="XGTMViewController" customModule="Mausoleum_Tool_V2" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="fzj-bv-Fcr"/>
+                        <viewControllerLayoutGuide type="bottom" id="uhA-xL-gnJ"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="2kM-rc-HXL">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="KA9-kM-6JL" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="523" y="1163"/>
+        </scene>
+        <!--Root View Controller-->
+        <scene sceneID="gDG-aw-HlS">
+            <objects>
+                <tableViewController id="X8f-SJ-Fcu" customClass="XGRootViewController" customModule="Mausoleum_Tool_V2" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="wet-fX-f2u">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <prototypes>
+                            <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="none" id="IXg-OG-0Ht">
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="IXg-OG-0Ht" id="Id8-AT-eK5">
+                                    <autoresizingMask key="autoresizingMask"/>
+                                </tableViewCellContentView>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="X8f-SJ-Fcu" id="5H1-CS-u1X"/>
+                            <outlet property="delegate" destination="X8f-SJ-Fcu" id="S6I-SR-tKI"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" title="Root View Controller" id="RuJ-cT-kZG"/>
+                    <connections>
+                        <segue destination="zUS-J5-IIi" kind="show" identifier="toStringTableReader" id="gGP-wk-9fE"/>
+                        <segue destination="APF-Iu-Em6" kind="show" identifier="toMoveVC" id="5xZ-to-iJW"/>
+                        <segue destination="Lm9-nI-0QF" kind="show" identifier="toTypeVC" id="9sI-fV-sU8"/>
+                        <segue destination="pEj-it-iaD" kind="show" identifier="toDolVC" id="iGq-j5-BGM"/>
+                        <segue destination="nFp-9Z-2Oc" kind="show" identifier="toStatsVC" id="pMA-q7-MMN"/>
+                        <segue destination="4pg-mR-LoT" kind="show" identifier="toDeckVC" id="pSt-uh-c6a"/>
+                        <segue destination="CLE-Ew-qlG" kind="show" identifier="toFSYSVC" id="kO7-CN-yjW"/>
+                        <segue destination="YSt-2z-Rrx" kind="show" identifier="toLZSSVC" id="SZG-2B-FVq"/>
+                        <segue destination="dnu-xe-yvJ" kind="show" identifier="toGiftVC" id="h2F-Dh-9aS"/>
+                        <segue destination="y6T-Ax-X75" kind="show" identifier="toTMVC" id="UjK-X9-irp"/>
+                    </connections>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="YLl-Br-6n1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1661" y="431"/>
+        </scene>
+        <!--String Search View Controller-->
+        <scene sceneID="K3C-j5-Ozj">
+            <objects>
+                <viewController id="zUS-J5-IIi" customClass="XGStringSearchViewController" customModule="Mausoleum_Tool_V2" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="efC-Uw-Cca"/>
+                        <viewControllerLayoutGuide type="bottom" id="Jk5-hM-xsk"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="tNi-lA-bmh">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="zXg-GJ-hLG" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2274" y="-277"/>
+        </scene>
+        <!--Move View Controller-->
+        <scene sceneID="2EH-sA-Owp">
+            <objects>
+                <viewController id="APF-Iu-Em6" customClass="XGMoveViewController" customModule="Mausoleum_Tool_V2" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="0W7-dZ-v44"/>
+                        <viewControllerLayoutGuide type="bottom" id="u5E-dF-TEU"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="WLP-Yt-Xyb">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="lPg-Xv-5HL" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2912" y="391"/>
+        </scene>
+        <!--Pokemon Stats View Controller-->
+        <scene sceneID="jD5-A5-SW2">
+            <objects>
+                <viewController id="nFp-9Z-2Oc" customClass="XGPokemonStatsViewController" customModule="Mausoleum_Tool_V2" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="vYj-Nw-aJy"/>
+                        <viewControllerLayoutGuide type="bottom" id="adT-Sl-erF"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Fsa-9C-rfA">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Wyc-x8-hyd" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1736" y="1320"/>
+        </scene>
+        <!--Dol Patcher View Controller-->
+        <scene sceneID="KD1-GS-cye">
+            <objects>
+                <viewController id="pEj-it-iaD" customClass="XGDolPatcherViewController" customModule="Mausoleum_Tool_V2" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="6SA-WK-2O7"/>
+                        <viewControllerLayoutGuide type="bottom" id="6hA-9L-4lB"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="cS5-6c-712">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Gb3-qB-ocl" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2557" y="997"/>
+        </scene>
+        <!--Type View Controller-->
+        <scene sceneID="mvm-wM-D9u">
+            <objects>
+                <viewController id="Lm9-nI-0QF" customClass="XGTypeViewController" customModule="Mausoleum_Tool_V2" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="7wu-5E-LFT"/>
+                        <viewControllerLayoutGuide type="bottom" id="1rq-ot-yL2"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Guu-bb-ZPC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="svd-9h-mqm" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2841" y="709"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="Y9A-xv-hhh">
+            <objects>
+                <navigationController id="rEM-yA-jZp" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="JYh-q7-zAR">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="X8f-SJ-Fcu" kind="relationship" relationship="rootViewController" id="5T8-sl-2hP"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="rnc-wK-RUW" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="666" y="-277"/>
         </scene>
     </scenes>
 </document>
